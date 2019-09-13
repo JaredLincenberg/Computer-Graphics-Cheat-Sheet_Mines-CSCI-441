@@ -61,3 +61,5 @@ glBegin(GL_TRIANGLE_STRIP);{
   * `void mouse_button_callback(GLFWwindow *win, int button, int action, int mods){}`
 * `glfwSetKeyCallback( windowMain, key_board_callback);`
   * `void key_board_callback(GLFWwindow *win, int key, int scancode, int action,int mod){}`
+*`glfwSetCursorPosCallback(windowMain, cursor_pos_callback);`
+  *`void cursor_pos_callback(GLFWwindow *win, double xpos, double ypos){}`
